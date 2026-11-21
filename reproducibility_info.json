@@ -1,0 +1,31 @@
+{
+  "base_model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "quantisation": "4-bit nf4, compute dtype float16 (QLoRA)",
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "lora_dropout": 0.05,
+  "target_modules": [
+    "q_proj",
+    "v_proj"
+  ],
+  "trainable_parameters": 2179072,
+  "total_parameters": 1545893376,
+  "optimizer": "AdamW",
+  "learning_rate": 0.0002,
+  "train_batch_size": 4,
+  "val_batch_size": 8,
+  "max_steps": 300,
+  "val_every": 25,
+  "patience": 3,
+  "min_delta": 0.001,
+  "gradient_clip": 1.0,
+  "mixed_precision": "float16 autocast with GradScaler",
+  "seed": 42,
+  "train_rows": 3121,
+  "validation_rows": 390,
+  "steps_run": 300,
+  "stopped_early": false,
+  "best_step": 300,
+  "best_val_loss": 0.503,
+  "training_time_minutes": 5.4
+}

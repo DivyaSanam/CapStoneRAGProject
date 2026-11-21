@@ -1,0 +1,9 @@
+Metric,Baseline,Naive RAG,Hybrid RAG,Best
+Format Adherence (%),100.0,100.0,100.0,Tie
+ROUGE-1,0.1646,0.1425,0.1573,Baseline
+ROUGE-L,0.0833,0.0908,0.1048,Hybrid RAG
+BLEU,0.0011,0.0032,0.007,Hybrid RAG
+Hallucination Rate (%),15.8568,8.9514,6.1381,Hybrid RAG
+Retrieval Accuracy (%),,47.4048,94.4637,Hybrid RAG
+Consistency (%),100.0,100.0,100.0,Tie
+Avg Answer Length (words),75.6726,51.9872,52.6394,

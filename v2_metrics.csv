@@ -1,0 +1,11 @@
+Metric,Hybrid RAG
+Format Adherence (%),100.0
+ROUGE-1,0.1573
+ROUGE-L,0.1048
+BLEU,0.007
+Consistency (%),100.0
+Hallucination Rate (%),6.14
+Retrieval Accuracy (%),94.46
+Router Format Adherence (%),100.0
+Router Exact Intent Match (%),87.0
+Router Fuzzy Intent Match (%),88.5
